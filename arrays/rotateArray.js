@@ -1,6 +1,7 @@
 // Given an array, 
 //rotate the array to the right by k steps, where k is non-negative.
-
+//explanation
+// https://javascript.plainenglish.io/algorithms-101-rotate-array-in-javascript-three-solutions-260fbc923b64
 var rotate = function(nums, k) {
     /* pop and unshift methods*/
  // let i = 0;

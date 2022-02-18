@@ -2,6 +2,9 @@
 // and returns a new array of the same length with the square of the original integers also sorted
 // in ascending order. 
 
+//explanation
+// https://karanchauhan16.medium.com/squares-of-a-sorted-array-in-javascript-95b1efe5df81
+
 // O(n) time || O(n) space 
 // solution #1
 function sortedSquaredArray(array) {
