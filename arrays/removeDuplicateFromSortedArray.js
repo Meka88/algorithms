@@ -27,3 +27,20 @@ const removeDuplicates = function(nums) {
     }
     return i + 1; // After the loop finishes, return the length of the unique numbers, which equals to i + 1
 }
+
+// solution #2 
+var removeDuplicates1 = function (nums) {
+    // Length of the updated array
+    let count = 0;
+    // Loop for all the elements in the array
+    for (let i = 0; i < nums.length; i++) {
+        // If the current element is equal to the next element, we skip
+        if (i < nums.length - 1 && nums[i] == nums[i + 1]) {
+            continue;
+        }
+        // We will update the array in place
+        nums[count] = nums[i];
+        count++;
+    }
+    return count;
+};
